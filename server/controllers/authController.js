@@ -102,7 +102,7 @@ exports.me = async (req, res) => {
 
 exports.logout = async (_req, res) => {
   clearTokenCookie(res);
-  res.json({ message: 'Logged out successfully' });
+  res.json({ message: 'Logged Out successfully' });
 };
 
 exports.forgotPassword = async (req, res, next) => {
